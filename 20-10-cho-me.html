@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chúc mừng 20/10 – Gửi mẹ yêu</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;800&family=Dancing+Script:wght@600&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f9fc;--card:#fff;--text:#1d2a3a;--muted:#5d6b7c;--brand:#1b6ef3;--pink:#ff5c9d;--gold:#ffd86b;--brand2:#ff7a1a;--line:#e3e8ef;--hero:linear-gradient(135deg,#1b6ef3,#5b9bff);
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1622;--card:#182233;--text:#e8eef7;--muted:#9fb0c5;--line:#263349;--hero:linear-gradient(135deg,#123a85,#1b6ef3)}}
+:root[data-theme="dark"]{--bg:#0f1622;--card:#182233;--text:#e8eef7;--muted:#9fb0c5;--line:#263349;--hero:linear-gradient(135deg,#123a85,#1b6ef3)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--text);font-family:'Be Vietnam Pro',system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+.top{background:var(--brand);color:#fff;font-size:13px;padding:6px 0;text-align:center}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;font-size:20px;color:var(--brand)}.logo span{color:var(--brand2)}
+nav{display:flex;gap:18px;font-size:14px;overflow-x:auto}
+nav a{color:var(--muted);text-decoration:none;white-space:nowrap}
+.hero{background:var(--hero);color:#fff;padding:70px 0 80px}
+.hero h1{font-size:clamp(28px,6vw,46px);line-height:1.2;font-weight:800;max-width:640px}
+.hero p{margin:16px 0 26px;max-width:520px;opacity:.92}
+.btn{display:inline-block;border:0;cursor:pointer;background:var(--brand2);color:#fff;font:600 15px inherit;font-family:inherit;padding:12px 24px;border-radius:999px;text-decoration:none}
+section{padding:56px 0}
+h2{font-size:26px;margin-bottom:6px}.lead{color:var(--muted);margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{font-size:17px;margin:8px 0 4px}.card p{color:var(--muted);font-size:14px}
+.ic{font-size:30px}
+.price{margin-top:12px;font-weight:700;color:var(--brand)}
+.stats{background:var(--card);border-block:1px solid var(--line)}
+.stats .grid{text-align:center}.stats b{display:block;font-size:34px;color:var(--brand)}.stats span{color:var(--muted);font-size:14px}
+.av{width:64px;height:64px;border-radius:50%;background:var(--hero);color:#fff;display:grid;place-items:center;font-size:24px;font-weight:800;margin-bottom:10px}
+.quote{font-style:italic}
+.who{margin-top:10px;font-size:13px;color:var(--muted);font-style:normal}
+.special{text-align:center;background:linear-gradient(180deg,var(--bg),rgba(255,122,26,.12))}
+.gift{font-size:18px;padding:16px 34px;animation:pulse 1.6s ease-in-out infinite;box-shadow:0 8px 24px rgba(255,122,26,.45)}
+@keyframes pulse{50%{transform:scale(1.07)}}
+footer{background:#0e1a2b;color:#aab8cc;font-size:13px;text-align:center;padding:28px 20px}
+
+.stage{display:none;position:fixed;inset:0;z-index:50;color:#fff;overflow:hidden;
+  background:radial-gradient(ellipse at 50% 110%,#5a1a56 0%,#2a0f4a 40%,#0b0620 80%)}
+.star{position:absolute;border-radius:50%;background:#fff;animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15;transform:scale(.6)}50%{opacity:1;transform:scale(1.2)}}
+.moon{position:absolute;top:8%;right:10%;width:70px;height:70px;border-radius:50%;
+  background:#fff6d6;box-shadow:0 0 40px 12px rgba(255,236,170,.45)}
+.fall{position:absolute;top:-6%;border-radius:80% 0 80% 0;background:linear-gradient(135deg,#ffc2dc,#ff5c9d);
+  opacity:.8;animation:fall linear infinite}
+@keyframes fall{0%{transform:translate(0,0) rotate(0)}100%{transform:translate(60px,115vh) rotate(540deg)}}
+.scene{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:24px;opacity:0;animation-duration:30s;animation-iteration-count:1;animation-fill-mode:forwards;animation-timing-function:ease-in-out}
+.s1{animation-name:s1}.s2{animation-name:s2}.s3{animation-name:s3}.s4{animation-name:s4}
+@keyframes s1{0%{opacity:0;transform:scale(.85)}4%{opacity:1;transform:scale(1)}14%{opacity:1}17%{opacity:0;transform:scale(1.1)}100%{opacity:0}}
+@keyframes s2{0%,16%{opacity:0;transform:scale(.6)}20%{opacity:1;transform:scale(1)}37%{opacity:1}40%,100%{opacity:0;transform:scale(1.2)}}
+@keyframes s3{0%,40%{opacity:0}43%{opacity:1}70%{opacity:1}73.3%,100%{opacity:0}}
+@keyframes s4{0%,73.3%{opacity:0}77%{opacity:1}100%{opacity:1}}
+.script{font-family:'Pacifico',cursive;line-height:1.3}
+h1.script{font-size:clamp(30px,8vw,64px);background:linear-gradient(90deg,#ffd86b,#ff8fc0,#ffd86b);background-size:200% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 3s linear infinite}
+@keyframes shine{to{background-position:-200% 0}}
+.sub{margin-top:16px;font-size:clamp(15px,4vw,24px);letter-spacing:.04em;opacity:.9}
+.heart{width:clamp(150px,40vw,260px);filter:drop-shadow(0 0 30px rgba(255,70,140,.9));animation:beat 1s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.15)}30%{transform:scale(1)}45%{transform:scale(1.1)}}
+.big{font-size:clamp(56px,16vw,130px);margin:8px 0 0}
+#flower{position:relative;width:240px;height:200px;margin-bottom:10px;animation:grow 30s forwards;transform:scale(0)}
+@keyframes grow{0%,41%{transform:scale(0) rotate(-120deg)}50%{transform:scale(1) rotate(0)}100%{transform:scale(1) rotate(0)}}
+.pt{position:absolute;left:50%;bottom:50%;width:56px;height:104px;margin-left:-28px;transform-origin:50% 100%;
+  border-radius:50% 50% 45% 45%/85% 85% 15% 15%;background:linear-gradient(#ffb3d1,#ff4f93);
+  transform:rotate(var(--r)) scaleY(0);animation:bloom 30s ease-out forwards}
+.pt.b{background:linear-gradient(#ffe0ee,#ff86b8);width:46px;margin-left:-23px;height:84px}
+@keyframes bloom{0%,42%{transform:rotate(calc(var(--r)*.2)) scaleY(0)}56%,100%{transform:rotate(var(--r)) scaleY(1)}}
+.core{position:absolute;left:50%;top:50%;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;
+  background:radial-gradient(#fff3a8,#ffb300);box-shadow:0 0 25px #ffd86b}
+.line{font-size:clamp(16px,4.6vw,28px);margin:8px 0;opacity:0;animation-duration:30s;animation-iteration-count:1;animation-fill-mode:forwards;max-width:90%}
+.l1{animation-name:l1}.l2{animation-name:l2}.l3{animation-name:l3}
+@keyframes l1{0%,46%{opacity:0;transform:translateY(20px)}49%,70%{opacity:1;transform:none}73%,100%{opacity:0}}
+@keyframes l2{0%,54%{opacity:0;transform:translateY(20px)}57%,70%{opacity:1;transform:none}73%,100%{opacity:0}}
+@keyframes l3{0%,62%{opacity:0;transform:translateY(20px)}65%,70%{opacity:1;transform:none}73%,100%{opacity:0}}
+#fw{position:absolute;inset:0;pointer-events:none}
+.burst{position:absolute;width:0;height:0}
+.sp{position:absolute;left:-3px;top:-3px;width:6px;height:6px;border-radius:50%;background:var(--c);
+  box-shadow:0 0 8px 2px var(--c);opacity:0;animation:fw 3s ease-out infinite;animation-delay:var(--dl)}
+@keyframes fw{0%{opacity:1;transform:rotate(var(--a)) translateX(0)}70%{opacity:1}100%{opacity:0;transform:rotate(var(--a)) translateX(var(--d))}}
+.final{position:relative;z-index:2;text-shadow:0 0 20px rgba(0,0,0,.7)}
+.bar{position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--gold),var(--pink));
+  transform-origin:left;animation:bar 30s linear forwards;padding-bottom:env(safe-area-inset-bottom,0px)}
+@keyframes bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+.stage.on{display:block}
+.stage.out{opacity:0;visibility:hidden;pointer-events:none;transition:opacity 1.4s ease,visibility 0s 1.4s}
+body.lock{overflow:hidden;height:100vh}
+.skip{position:absolute;right:14px;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:5;border:1px solid rgba(255,255,255,.35);
+  background:rgba(255,255,255,.12);color:#fff;font:600 13px 'Be Vietnam Pro',sans-serif;padding:6px 14px;border-radius:999px;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="stage" id="stage">
+  <div id="stars"></div>
+  <div class="moon"></div>
+  <div id="fall"></div>
+
+  <div class="scene s1">
+    <p class="sub">Gửi người phụ nữ tuyệt vời nhất</p>
+    <h1 class="script">Mẹ yêu của con</h1>
+  </div>
+
+  <div class="scene s2">
+    <svg class="heart" viewBox="0 0 100 90"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff9ec4"/><stop offset="1" stop-color="#e0185f"/></linearGradient></defs><path fill="url(#g)" d="M50 86C20 62 4 46 4 28 4 14 15 5 28 5c9 0 17 5 22 13C55 10 63 5 72 5c13 0 24 9 24 23 0 18-16 34-46 58z"/></svg>
+    <h1 class="script big">20/10</h1>
+    <p class="sub">Chúc mừng ngày Phụ nữ Việt Nam</p>
+  </div>
+
+  <div class="scene s3">
+    <div id="flower"><div class="core"></div></div>
+    <p class="line l1 script">Cảm ơn mẹ đã hy sinh thầm lặng</p>
+    <p class="line l2 script">Vì những bữa cơm ấm áp mỗi ngày</p>
+    <p class="line l3 script">Vì tình yêu bao la không cần đáp lại</p>
+  </div>
+
+  <div class="scene s4">
+    <div id="fw"></div>
+    <div class="final">
+      <p class="sub">Chúc mẹ luôn khỏe mạnh, xinh đẹp và hạnh phúc</p>
+      <h1 class="script big" style="font-size:clamp(34px,9vw,72px)">Con yêu mẹ nhiều lắm ♥</h1>
+    </div>
+  </div>
+
+  <div class="bar"></div>
+  <button class="skip" id="skip">Bỏ qua ›</button>
+</div>
+<div class="top">Hotline tư vấn: 0900 000 000 · Đăng ký học thử miễn phí</div>
+<header><div class="wrap">
+  <div class="logo">Sunrise<span> English</span></div>
+  <nav><a href="#kh">Khóa học</a><a href="#gv">Giáo viên</a><a href="#hv">Học viên</a><a href="#dk">Đăng ký</a></nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <h1>Trung tâm Ngoại ngữ Sunrise – Bình Thạnh, TP.HCM</h1>
+  <p>Hơn 10 năm đồng hành cùng học viên chinh phục tiếng Anh. Lớp nhỏ, giáo viên tận tâm, lộ trình rõ ràng.</p>
+  <a class="btn" href="#kh">Xem khóa học</a>
+</div></div>
+
+<div class="stats"><div class="wrap" style="padding-block:34px"><div class="grid">
+  <div><b>10+</b><span>Năm kinh nghiệm</span></div>
+  <div><b>5.000+</b><span>Học viên</span></div>
+  <div><b>98%</b><span>Hài lòng</span></div>
+  <div><b>20</b><span>Giáo viên</span></div>
+</div></div></div>
+
+<section id="kh"><div class="wrap">
+  <h2>Khóa học nổi bật</h2><p class="lead">Chương trình phù hợp mọi lứa tuổi và mục tiêu.</p>
+  <div class="grid">
+    <div class="card"><div class="ic">🎓</div><h3>IELTS 6.5+</h3><p>Luyện thi 4 kỹ năng, thi thử mỗi tháng.</p><div class="price">3.200.000đ / tháng</div></div>
+    <div class="card"><div class="ic">💼</div><h3>TOEIC 700+</h3><p>Tăng tốc cho người đi làm và sinh viên.</p><div class="price">2.400.000đ / tháng</div></div>
+    <div class="card"><div class="ic">💬</div><h3>Giao tiếp</h3><p>Tự tin nói chuyện với người nước ngoài.</p><div class="price">1.800.000đ / tháng</div></div>
+    <div class="card"><div class="ic">🧒</div><h3>Thiếu nhi</h3><p>Học mà chơi, chơi mà học cho bé 6–12 tuổi.</p><div class="price">1.500.000đ / tháng</div></div>
+  </div>
+</div></section>
+
+<section id="gv" style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
+  <h2>Đội ngũ giáo viên</h2><p class="lead">Tận tâm, kiên nhẫn và giàu kinh nghiệm.</p>
+  <div class="grid">
+    <div class="card"><div class="av">M</div><h3>Cô Mai</h3><p>Giảng viên IELTS, 8 năm kinh nghiệm.</p></div>
+    <div class="card"><div class="av">H</div><h3>Thầy Hưng</h3><p>Chuyên TOEIC và tiếng Anh công sở.</p></div>
+    <div class="card"><div class="av">L</div><h3>Cô Lan</h3><p>Chuyên giao tiếp và phát âm.</p></div>
+  </div>
+</div></section>
+
+<section id="hv"><div class="wrap">
+  <h2>Học viên nói gì?</h2><p class="lead">Những chia sẻ từ học viên của trung tâm.</p>
+  <div class="grid">
+    <div class="card quote">“Lớp học vui, giáo viên nhiệt tình, mình tiến bộ rõ rệt chỉ sau ba tháng.”<div class="who">Chị Thu · Học viên Giao tiếp</div></div>
+    <div class="card quote">“Lịch học linh hoạt, phù hợp với người đi làm như mình.”<div class="who">Anh Nam · Học viên TOEIC</div></div>
+    <div class="card quote">“Con mình rất thích đến lớp mỗi cuối tuần.”<div class="who">Cô Hoa · Phụ huynh</div></div>
+  </div>
+</div></section>
+
+<section id="dk" class="special"><div class="wrap">
+  <h2>Ưu đãi đặc biệt tháng 10</h2>
+  <p class="lead">Dành riêng cho một người đặc biệt nhất. Nhấn vào bên dưới để nhận.</p>
+  <button class="btn gift" id="giftBtn">🎁 Quà tặng của Hiển</button>
+</div></section>
+
+<footer>© 2026 Sunrise English Center · 123 Đường Xô Viết Nghệ Tĩnh, Q. Bình Thạnh, TP.HCM<br>Website mang tính chất giải trí, không phải trung tâm thật.</footer>
+
+
+<script>(function(){
+const R=(a,b)=>a+Math.random()*(b-a);
+const mk=(p,c,s)=>{const e=document.createElement('div');e.className=c;e.style.cssText=s||'';document.getElementById(p).appendChild(e);return e};
+for(let i=0;i<90;i++){const z=R(1,3);mk('stars','star',`left:${R(0,100)}%;top:${R(0,100)}%;width:${z}px;height:${z}px;animation-delay:${R(0,3)}s`)}
+for(let i=0;i<26;i++){const z=R(10,22);mk('fall','fall',`left:${R(0,100)}%;width:${z}px;height:${z}px;animation-duration:${R(7,13)}s;animation-delay:-${R(0,13)}s`)}
+for(let i=0;i<8;i++)mk('flower','pt',`--r:${i*45}deg`);
+for(let i=0;i<8;i++)mk('flower','pt b',`--r:${i*45+22.5}deg`);
+const f=document.getElementById('flower'),core=f.querySelector('.core');f.appendChild(core);
+const cols=['#ffd86b','#ff5c9d','#7fe7ff','#b69cff','#ff9a5c','#8dffb0'];
+for(let b=0;b<6;b++){
+  const el=mk('fw','burst',`left:${15+b*14+R(-4,4)}%;top:${15+R(0,35)}%`);
+  const c=cols[b%6],dl=(22+b*0.5)+'s',d=R(80,130)+'px';
+  for(let i=0;i<24;i++){const s=document.createElement('div');s.className='sp';
+    s.style.cssText=`--a:${i*15}deg;--c:${c};--dl:${dl};--d:${d}`;el.appendChild(s)}
+}
+
+const st=document.getElementById('stage'),sk=document.getElementById('skip');let t;
+function play(){clearTimeout(t);st.classList.remove('out');st.classList.add('on');sk.textContent='Bỏ qua ›';t=setTimeout(()=>{sk.textContent='Đóng ✕'},30000)}
+function stop(){clearTimeout(t);st.classList.add('out');setTimeout(()=>st.classList.remove('on','out'),1500)}
+sk.onclick=stop;document.getElementById('giftBtn').onclick=play;
+})();
+</script>
+</body>
+</html>
